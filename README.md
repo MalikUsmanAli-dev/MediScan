@@ -1,4 +1,4 @@
-# 💊 MediScan — Prescription Recognition System
+# 💊 MedScan — Prescription Recognition System
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
@@ -29,7 +29,7 @@ Built by **Malik Usman**
 
 ## Overview
 
-MediScan automates the error-prone process of manually reading handwritten
+MedScan automates the error-prone process of manually reading handwritten
 or printed medical prescriptions. It combines classical **Digital Image
 Processing** with a choice of local OCR, cloud vision AI, or both (Hybrid),
 plus a from-scratch, confidence-fused **Privacy Engine** that keeps patient
