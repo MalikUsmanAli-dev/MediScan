@@ -1,0 +1,32 @@
+# Core application
+streamlit>=1.38.0
+
+# Image processing
+opencv-python-headless>=4.10.0
+numpy>=1.26.0
+Pillow>=10.4.0
+
+# Data handling & charts
+pandas>=2.2.0
+plotly>=5.24.0
+
+# Offline OCR engine (Tesseract) — requires the tesseract-ocr system binary too:
+#   Ubuntu/Debian: sudo apt install tesseract-ocr
+#   macOS:         brew install tesseract
+#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki
+pytesseract>=0.3.10
+
+# Cloud AI engine — a generic OpenAI-compatible HTTP client is used, so ANY
+# provider (Groq, OpenAI, OpenRouter, Together AI, or a custom endpoint) works
+# with just this one dependency. Optional — only needed for "Cloud API" or
+# "Hybrid" analysis mode; pick your provider and add an API key in Settings.
+requests>=2.31.0
+
+# PDF report generation
+reportlab>=4.2.0
+
+# Nicer sidebar navigation
+streamlit-option-menu>=0.3.13
+
+# Environment variable handling (used to optionally load GROQ_API_KEY / TESSERACT_CMD from .env)
+python-dotenv>=1.0.0
