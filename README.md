@@ -15,11 +15,13 @@ Built by **Malik Usman**
 
 - [Overview](#overview)
 - [Features](#features)
+- [Screenshots](#screenshots)
 - [Three Analysis Modes](#three-analysis-modes)
 - [Any OpenAI-Compatible Provider](#any-openai-compatible-provider--not-locked-to-one-vendor)
 - [Privacy Engine](#️-privacy-engine-confidence-driven-fully-local)
 - [Pipeline Overview](#pipeline-overview)
 - [Setup](#setup)
+- [Live Demo](#livedemo)
 - [Deployment Notes](#deployment-notes--tesseract-is-a-system-binary-not-a-python-package)
 - [Project Structure](#project-structure)
 - [Disclaimer](#disclaimer)
@@ -54,6 +56,20 @@ light/dark mode, analytics, an editable results table, and PDF export.
   image quality heuristics
 - 🌗 **Light/dark mode**, PDF report export, and a one-click Tesseract
   auto-installer
+
+## Screenshots
+
+### Dashboard
+![Dashboard](assets/dashboard.png)
+
+### Hybrid Analysis
+![Analysis](assets/hybrid.png)
+
+### Privacy Engine
+![Privacy](assets/privacy.png)
+
+### PDF Report
+![Report](assets/report.png)
 
 ## Three Analysis Modes
 
@@ -167,6 +183,11 @@ git clone https://github.com/MalikUsmanAli-dev/MediScan.git
 cd MediScan
 pip install -r requirements.txt
 ```
+
+## Live Demo
+
+🚀 Streamlit Demo:
+[https://mediscan-prescription-recognition-system.streamlit.app/]
 
 ### Offline mode (Tesseract) — install the OCR binary
 
