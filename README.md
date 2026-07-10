@@ -163,8 +163,8 @@ needed to the fusion, redaction, or app.py integration code.
 ## Setup
 
 ```bash
-git clone https://github.com/MalikUsmanAli-dev/MedScan.git
-cd MedScan
+git clone https://github.com/MalikUsmanAli-dev/MediScan.git
+cd MediScan
 pip install -r requirements.txt
 ```
 
