@@ -260,4 +260,6 @@ distribute with attribution.
 
 ---
 
+https://medscan-prescription-recognition-system.streamlit.app/
+
 <p align="center">Developed by <b>Malik Usman</b></p>
