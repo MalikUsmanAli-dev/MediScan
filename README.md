@@ -1,5 +1,10 @@
 # 💊 MediScan — Prescription Recognition System
 
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-orange)
+
 **A hybrid OCR + AI pipeline that extracts medicines, dosages, and usage instructions from prescription photos — with a confidence-driven local Privacy Engine, a polished Streamlit dashboard, and PDF report export.**
 
 Built by **Malik Usman**
@@ -158,8 +163,8 @@ needed to the fusion, redaction, or app.py integration code.
 ## Setup
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/MalikUsmanAli-dev/MedScan.git
+cd MedScan
 pip install -r requirements.txt
 ```
 
