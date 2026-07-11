@@ -16,12 +16,12 @@ Built by **Malik Usman**
 - [Overview](#overview)
 - [Features](#features)
 - [Screenshots](#screenshots)
+- [Live Demo](#livedemo)
 - [Three Analysis Modes](#three-analysis-modes)
 - [Any OpenAI-Compatible Provider](#any-openai-compatible-provider--not-locked-to-one-vendor)
 - [Privacy Engine](#️-privacy-engine-confidence-driven-fully-local)
 - [Pipeline Overview](#pipeline-overview)
 - [Setup](#setup)
-- [Live Demo](#livedemo)
 - [Deployment Notes](#deployment-notes--tesseract-is-a-system-binary-not-a-python-package)
 - [Project Structure](#project-structure)
 - [Disclaimer](#disclaimer)
@@ -60,16 +60,35 @@ light/dark mode, analytics, an editable results table, and PDF export.
 ## Screenshots
 
 ### Dashboard
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/dashboard1.png)
+![Dashboard](assets/dashboard2.png)
+
+### Image Processing
+![Processing](assets/processing.png)
 
 ### Hybrid Analysis
 ![Analysis](assets/hybrid.png)
 
-### Privacy Engine
-![Privacy](assets/privacy.png)
+### Privacy Results
+![Privacy](assets/privacy1.png)
+![Privacy](assets/privacy2.png)
+![Privacy](assets/privacy3.png)
 
 ### PDF Report
 ![Report](assets/report.png)
+
+### Setting
+![Setting](assets/settings1.png)
+
+### Analytics Dashboard
+![Analytics](assets/analytics1.png)
+![Analytics](assets/analytics2.png)
+
+## Live Demo
+
+🚀 Streamlit Demo: [https://mediscan-prescription-recognition-system.streamlit.app/]
+
+⚠️ (First launch may take up to 1 minute because the free hosting tier goes to sleep after inactivity.)
 
 ## Three Analysis Modes
 
@@ -183,11 +202,6 @@ git clone https://github.com/MalikUsmanAli-dev/MediScan.git
 cd MediScan
 pip install -r requirements.txt
 ```
-
-## Live Demo
-
-🚀 Streamlit Demo:
-[https://mediscan-prescription-recognition-system.streamlit.app/]
 
 ### Offline mode (Tesseract) — install the OCR binary
 
