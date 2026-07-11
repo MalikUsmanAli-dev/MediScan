@@ -158,9 +158,12 @@ light/dark mode, analytics, an editable results table, and PDF export.
 
 ## 🚀 Live Demo
 
-[Open Live Demo](https://mediscan-prescription-recognition-system.streamlit.app/)
+Streamlit Demo:
+
+https://mediscan-prescription-recognition-system.streamlit.app/
 
 ⚠️ (First launch may take up to 1 minute because the free hosting tier goes to sleep after inactivity.)
+
 
 ## Three Analysis Modes
 
@@ -366,7 +369,5 @@ Released under the [MIT License](LICENSE) — free to use, modify, and
 distribute with attribution.
 
 ---
-
-https://medscan-prescription-recognition-system.streamlit.app/
 
 <p align="center">Developed by <b>Malik Usman</b></p>
