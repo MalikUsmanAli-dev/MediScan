@@ -60,33 +60,75 @@ light/dark mode, analytics, an editable results table, and PDF export.
 ## Screenshots
 
 ### Dashboard
-![Dashboard](assets/dashboard1.png)
-![Dashboard](assets/dashboard2.png)
+
+<p align="center">
+<img src="assets/dashboard1.png" width="850">
+</p>
+
+<br>
+
+<p align="center">
+<img src="assets/dashboard2.png" width="850">
+</p>
 
 ### Image Processing
-![Processing](assets/processing.png)
+
+<p align="center">
+<img src="assets/processing.png" width="850">
+</p>
 
 ### Hybrid Analysis
-![Analysis](assets/hybrid.png)
+
+<p align="center">
+<img src="assets/hybrid.png" width="850">
+</p>
 
 ### Privacy Results
-![Privacy](assets/privacy1.png)
-![Privacy](assets/privacy2.png)
-![Privacy](assets/privacy3.png)
+
+<p align="center">
+<img src="assets/privacy1.png" width="850">
+</p>
+
+<br>
+
+<p align="center">
+<img src="assets/privacy2.png" width="850">
+</p>
+
+<br>
+
+<p align="center">
+<img src="assets/privacy3.png" width="850">
+</p>
 
 ### PDF Report
-![Report](assets/report.png)
+
+<p align="center">
+<img src="assets/report.png" width="850">
+</p>
 
 ### Setting
-![Setting](assets/settings1.png)
+
+<p align="center">
+<img src="assets/settings1.png" width="850">
+</p>
 
 ### Analytics Dashboard
-![Analytics](assets/analytics1.png)
-![Analytics](assets/analytics2.png)
 
-## Live Demo
+<p align="center">
+<img src="assets/analytics1.png" width="850">
+</p>
 
-🚀 Streamlit Demo: [https://mediscan-prescription-recognition-system.streamlit.app/]
+<br>
+
+<p align="center">
+<img src="assets/analytics2.png" width="850">
+</p>
+
+## 🚀 Live Demo
+
+Streamlit Demo:
+[https://mediscan-prescription-recognition-system.streamlit.app/]
 
 ⚠️ (First launch may take up to 1 minute because the free hosting tier goes to sleep after inactivity.)
 
