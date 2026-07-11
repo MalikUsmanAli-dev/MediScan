@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-orange)
 
-**A hybrid OCR + AI pipeline that extracts medicines, dosages, and usage instructions from prescription photos — with a confidence-driven local Privacy Engine, a polished Streamlit dashboard, and PDF report export.**
+**A hybrid OCR + AI prescription analysis system that extracts medicines, dosages, and usage instructions from prescription images using Digital Image Processing, local OCR, and Vision AI — with a confidence-driven privacy layer, interactive analytics dashboard, and PDF report generation.**
 
 Built by **Malik Usman**
 
@@ -14,6 +14,8 @@ Built by **Malik Usman**
 ## Table of Contents
 
 - [Overview](#overview)
+- [Key Highlights](#key-highlights)
+- [Tech stack](#tech-stack)
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Live Demo](#livedemo)
@@ -37,6 +39,35 @@ Processing** with a choice of local OCR, cloud vision AI, or both (Hybrid),
 plus a from-scratch, confidence-fused **Privacy Engine** that keeps patient
 data off the wire before any cloud call — all wrapped in a dashboard with
 light/dark mode, analytics, an editable results table, and PDF export.
+
+## Key Highlights
+
+- 🔐 Privacy-first AI processing with local PII detection before cloud requests
+- 🔀 Hybrid OCR + Vision AI workflow with automatic fallback
+- 🧠 Confidence-based fusion instead of relying on a single detector
+- 🖼️ Digital Image Processing pipeline optimized for prescription images
+- 📄 Automated PDF reports with extraction and privacy summaries
+
+## Tech Stack
+
+### Core
+- Python 3.12
+- Streamlit
+- OpenCV
+- Pillow
+
+### OCR & AI
+- Tesseract OCR
+- OpenAI-compatible Vision AI APIs
+- Local fuzzy medicine-name matching
+
+### Processing & Reporting
+- ReportLab (PDF generation)
+- Plotly (analytics visualization)
+
+### Deployment
+- Streamlit Community Cloud
+- Tesseract system binary integration
 
 ## Features
 
@@ -127,8 +158,7 @@ light/dark mode, analytics, an editable results table, and PDF export.
 
 ## 🚀 Live Demo
 
-Streamlit Demo:
-[https://mediscan-prescription-recognition-system.streamlit.app/]
+[Open Live Demo](https://mediscan-prescription-recognition-system.streamlit.app/)
 
 ⚠️ (First launch may take up to 1 minute because the free hosting tier goes to sleep after inactivity.)
 
@@ -180,9 +210,9 @@ Image
   ├─ Stage 4: Confidence Fusion   — combines all evidence probabilistically into
   │                                  one confidence score per region.
   └─ Stage 5: Redaction Generator — auto-masks anything above threshold; a
-                                     guaranteed top-10% fallback fires if every
-                                     detector finds nothing, so an image is
-                                     never sent fully unredacted.
+                                     a conservative fallback masking strategy can be
+                                     applied if detectors produce insufficient evidence,
+                                     reducing the risk of sending completely unprocessed images.
   │
   ▼
 Sanitized image ──▶ Cloud AI
